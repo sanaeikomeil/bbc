@@ -1,0 +1,11 @@
+.flexi{
+    display: flex;
+}
+
+#flex{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #222222;
+    position: relative;
+}

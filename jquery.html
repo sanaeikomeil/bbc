@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery-.min.js"></script>
+    <style>
+        .jumbotron {
+            background-image: url("mmmkkmvlkm.jpg");
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 70px;
+        }
+
+        .form-inline {
+            justify-content: center;
+        }
+        #head-class{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #googleplayicone{
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        #footer{
+            background-color: aqua;
+            padding-top: 33px;
+            margin-top: 50px;
+            text-align: center;
+            padding-bottom: 23px;;
+        }
+        body{
+            position: relative;
+        }
+    </style>
+
+</head>
+<body data-spy="scroll"  data-target="#navbar" data-offset="150">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+    <a class="navbar-brand" href="#">My App</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item ">
+                <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#footer">download The App</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="Email">
+            <input class="form-control mr-sm-2" type="password" placeholder="password">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">login</button>
+        </form>
+    </div>
+</nav>
+
+
+<div class="jumbotron" id="jumbotron">
+    <h1 class="display-4">My Awesome App!</h1>
+    <p class="lead">This is why you should see this fantastic App !</p>
+    <hr class="my-4">
+    <p>Want to know more? hire me on your company .</p>
+    <form class="form-inline">
+        <div class="input-group  mb-3">
+            <input type="text" class="form-control" placeholder="Your Email">
+            <div class="input-group-append">
+                <span class="input-group-text">@example.com</span>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mx-sm-3 mb-3">sign up</button>
+    </form>
+</div>
+
+
+<div class="container" id="about">
+    <div id="head-class">
+        <h1>Why This App Is Awesome</h1>
+        <p class="lead">Summary , once again , of your Apps awesomeness</p>
+    </div>
+
+    <div class="card-deck">
+
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="photo-vdvdvd.jpg">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="photo-barf.jpg">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="photo-1575672940345-aa3e5baa0d3d.jpg">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div  id="footer">
+    <div>
+        <h2>Download the app!</h2>
+        <p class="lead">Really , why should I download this app?</p>
+        <p><a href=""></a><img id="googleplayicone" src="google_play.png"> </p>
+    </div>
+</div>
+</body>
+</html>

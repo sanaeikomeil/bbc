@@ -1,0 +1,335 @@
+.nav>li > a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.container>li > a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.khabar-mortabet>li > a {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.barr > ul {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-top-bar {
+    display: flex;
+    width: 100%;
+}
+
+.nav > li {
+    border-right: 1px gray solid;
+    padding-right: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center; /*mige az bala o paein vasat bashe*/
+}
+
+#search-box {
+    background-color: #e4e4e4;
+    font-weight: bold;
+    height: 25px;
+    border: none;
+}
+
+#search-ingine {
+    width: 27px;
+    height: 27px;
+    cursor: pointer; /* yani mouse raft rosh alamate pointer(dast) biad rosh*/
+}
+
+.nav > li:nth-child(2) { /*yani bache dovomesh*/
+    width: 138px;
+    display: flex;
+    align-items: center;
+    padding-right: 65px;
+}
+
+
+.nav {
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, freesans, sans-serif;
+    margin: 0 120px 0 117px;
+
+}
+
+#logo {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 7px;
+    height: 27px;
+    width: 100px;
+}
+
+#sign-in {
+    width: 50px;
+    height: 35px;
+}
+
+.news {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #BB1919;
+    font-family: Arial, Helvetica, freesans, sans-serif;
+    align-items: center;
+
+}
+
+h1 {
+    color: #ffffff;
+    margin-left: 120px;
+    cursor: pointer;
+    font-size: 38px;
+}
+
+.barr {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #BB1919;
+    font-family: Arial, Helvetica, freesans, sans-serif;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin: 0 128px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container > li {
+    border-right: 1px solid #bb4545;
+}
+
+.container > li > a {
+    padding-right: 90px;
+    color: #e4e4e4;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.container > li:nth-child(1) { /*yani bache dovomesh*/
+    /* margin-left: 67px !important;*/
+}
+
+#shot003 {
+    width: 506px;
+    height: 367px;
+    margin-top: 15px;
+}
+
+.container-body {
+    flex-direction: column;
+    width: 100%;
+    height: 800%;
+    display: flex;
+
+}
+.margin-dakheli{
+    display: flex;
+    flex-direction: column;
+    margin: 0 128px;
+}
+
+#tech {
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 4px solid #BB1919;
+    width: 100px;
+}
+
+.body-links {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 50px;
+}
+
+.vatan {
+    display: flex;
+    width: 100% x;
+}
+
+.vatan:hover .body-links {
+    color: #1167a8;
+    text-decoration: underline #1167a8;
+
+}
+
+#size-font-zire-aks {
+    color: #222;
+    font-size: 27px;
+}
+
+.avalin-khabar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 37px;
+}
+
+.clock-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+}
+
+.tech-kenar-aks {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.tech-kenar-aks:hover {
+    color: #1167a8;
+    text-decoration: underline #1167a8;
+
+}
+
+.tech-kenar-aks:hover.body-links { /*?????????*/
+    color: red !important;
+    text-decoration: none !important;
+}
+
+
+.time {
+    display: flex;
+}
+
+.khabar-mortabet {
+    display: flex;
+    flex-direction: column;
+    list-style-type: square !important;
+    margin-left: 28px;
+    padding-top: 7px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.khabar-mortabet > li:hover a {
+    color: #1167a8!important;
+    text-decoration: underline #1167a8;
+}
+.box-photo-1:hover a{
+    color: #1167a8!important;
+    text-decoration: underline #1167a8 !important;
+}
+.box-photo-2:hover a{
+    color: #1167a8!important;
+    text-decoration: underline #1167a8 !important;
+}
+
+.Watch-Listen-line {
+    display: flex;
+    height: 43px;
+    width: 230px;
+    font-size: 43px;
+    color: #222;
+    font-weight: normal;
+    margin-left: 128px;
+
+}
+
+.Watch-Listen-inline-block {
+    display: flex;
+    height: 50px;
+    width: 70%;
+}
+.Watch-Listen-inline-block-in{
+    height: calc(50% + 7px);
+    border-bottom: 2px solid gray;
+    width: 100%;
+}
+.container-listen-watch {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+
+}
+
+.Watch-Listen{
+    display: flex;
+
+
+}
+
+#clip{
+    display: flex;
+    width: 380px;
+    height: 250px;
+}
+#clip1{
+    display: flex;
+    width: 380px;
+    height: 250px;
+}
+#text-pho-lis-wa{
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+    font-size: 25px;
+}
+#text-pho-lis-wa1{
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.photo-lis-wa{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 250px;
+}
+.box-photo-1{
+    display: flex;
+    width: 380px;
+    height: 250px;
+    flex-direction: column;
+    margin: 0 25px 0 128px;
+}
+.box-photo-2{
+    display: flex;
+    width: 380px;
+    height: 250px;
+    flex-direction: column;
+}
+
+.lis-wat-line{
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,223 @@
+
+header{
+    background-color: #fff;
+    width: 100%;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+
+.header-navbars{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 10px;
+}
+.header-brand{
+    font-family: catamaran;
+    color: #111;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.nav-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-navbars li a{
+    color: #111;
+}
+ul li{
+text-decoration: none;
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+.nav-case{
+    display: none;
+}
+.header-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-class{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: relative;
+
+}
+#main-image {
+    width: 100%;
+
+}
+.text-main{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    flex-direction: column;
+}
+.text-main h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bold;
+}
+.text-main p{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+.footer-class{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cases{
+    display: flex;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+    margin: 10px;
+
+}
+.cases h2{
+    text-align: center;
+    width: 100%;
+}
+.portfolio{
+    display: flex;
+    margin: 10px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+}
+.portfolio h2{
+    text-align: center;
+    width: 100%;
+}
+.mmtuts{
+    display: flex;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+    margin: 10px;
+}
+.mmtuts h2{
+    text-align: center;
+    width: 100%;
+}
+.instagram-channel{
+    display: flex;
+    height: 42px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+}
+.instagram-channel h2{
+    text-align: center;
+    width: 100%;
+}
+.about{
+    display: flex;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+    margin: 10px;
+}
+.about h2{
+    text-align: center;
+    width: 100%;
+}
+.contact{
+    display: flex;
+    border-radius: 10px;
+    background-color: #5e5e5e;
+    margin: 10px;
+    height: 42px;
+}
+.contact h2{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+.end{
+    display: flex;
+    flex-direction: row;
+    height: 135px;
+    width: 100%;
+}
+
+.end-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF333;
+    height: 135px;
+    width: 90%;
+}
+.end-text{
+    margin-left: 2%;
+    display: flex;
+}
+.end-icon{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF333;;
+    height: 135px;
+    width: 10%;
+}
+@media screen and (min-width: 768px){
+    .header-flex{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul li{
+        padding: 0 29px;
+    }
+    .header-brand{
+        border-right:3px solid #5e5e5e;
+        margin-left: 10px;
+        padding-right: 29px;
+    }
+    .nav-case {
+        display: flex;
+        border-radius: 5px;
+        margin-right: 110px;
+    }
+    .nav-case:hover{
+        background-color: #a9fd00;
+        transform: translateY(-4px);
+        transition: all 200ms;
+    }
+
+    .nav-nav{
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer-class{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-class div{
+        width: calc(33.3333% - 20px);
+    }
+
+
+}

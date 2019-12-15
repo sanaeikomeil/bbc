@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>html5&css3</title>
+</head>
+<body>
+<video width="320" height="240" controls id="video">
+    <source src="SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+</video>
+<button id="play">play</button>
+<audio controls>
+    <source src="SampleAudio_0.4mb.mp3" type="audio/mp3">
+</audio>
+<script>
+    document.getElementById("play").onclick= function () {
+        if(document.getElementById("video").paused){
+            document.getElementById("video").play();
+            this.innerHTML = "paused";
+        } else {
+            document.getElementById("video").pause();
+            this.innerHTML = "play";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7ab915d-fe74-45c4-977b-35e81bfdf751" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Sl8Gj7kXzMxbFEWYC2z0L45yIq" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7ab915d-fe74-45c4-977b-35e81bfdf751" name="Default Changelist" comment="" />
+      <created>1572126727516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572126727516</updated>
+      <workItem from="1572126728782" duration="3271000" />
+      <workItem from="1572161387167" duration="22825000" />
+      <workItem from="1572257246292" duration="689000" />
+      <workItem from="1572340965061" duration="26358000" />
+      <workItem from="1572420692197" duration="23567000" />
+      <workItem from="1572467801268" duration="1225000" />
+      <workItem from="1572527647413" duration="288000" />
+      <workItem from="1572603545468" duration="1565000" />
+      <workItem from="1572673769155" duration="4268000" />
+      <workItem from="1572709867428" duration="4831000" />
+      <workItem from="1572896714378" duration="7508000" />
+      <workItem from="1572946706001" duration="4380000" />
+      <workItem from="1572966748135" duration="3165000" />
+      <workItem from="1572982066412" duration="3410000" />
+      <workItem from="1573750049855" duration="263000" />
+      <workItem from="1574340408405" duration="626000" />
+      <workItem from="1574871050890" duration="4622000" />
+      <workItem from="1574934988183" duration="4265000" />
+      <workItem from="1574988043327" duration="311000" />
+      <workItem from="1575470982450" duration="4137000" />
+      <workItem from="1575628293399" duration="2123000" />
+      <workItem from="1575709365710" duration="8053000" />
+      <workItem from="1575819467864" duration="13481000" />
+      <workItem from="1575910174860" duration="1565000" />
+      <workItem from="1576143885689" duration="4381000" />
+      <workItem from="1576175200326" duration="265000" />
+      <workItem from="1576175553657" duration="49000" />
+      <workItem from="1576176233139" duration="5660000" />
+      <workItem from="1576222921757" duration="6989000" />
+      <workItem from="1576237075698" duration="15077000" />
+      <workItem from="1576309348828" duration="793000" />
+      <workItem from="1576347574919" duration="631000" />
+      <workItem from="1576420260972" duration="1339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

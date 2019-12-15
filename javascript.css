@@ -1,0 +1,22 @@
+.circle-box{
+    display: flex;
+}
+
+.circle{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 50px;
+}
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}

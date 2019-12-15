@@ -1,0 +1,18 @@
+.flexi{
+    display: flex;
+    flex-direction: column;
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+}
+ .square{
+     width: 100px;
+     height: 100px;
+     margin: 10px;
+     background-color: red;
+ }
